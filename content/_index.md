@@ -51,8 +51,8 @@ sections:
           - publication
         featured_only: true
     design:
-      # view: article-grid
-      view: date-title-summary 
+      view: article-grid
+      # view: date-title-summary 
       # columns: '2'
   - block: collection
     content:
