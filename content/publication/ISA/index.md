@@ -2,10 +2,10 @@
 title: "Instance-Level Strong Augmentation for Semi-Supervised 3D Object Detection / under review"
 authors:
 - admin
-- Chen, Yu
-- Chen, Nuo
-- Du, Yong
-- Zhang, Huaidong
+- Chen Yu
+- Chen Nuo
+- Du Yong
+- Zhang Huaidong
 date: "2024-11-15T00:00:00Z"
 doi: ""
 
@@ -21,21 +21,22 @@ publication_types: ["article"]
 publication: ""
 publication_short: ""
 
-abstract: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.
+abstract: "Semi-supervised 3D object detection aims to improve model performance by leveraging both labeled and unlabeled data. Existing methods primarily focus on scene-level augmentations, such as rotation, flipping, and scaling, to enhance the training of student models. However, scene-level augmentations fail to fully exploit instance-specific information, which is essential for accurate object detection in 3D environments. In this paper, we propose ISA, Instance-level Strong Augmentation strategy, for semi-supervised 3D object detection. ISA includes three key augmentation strategies: instance switch, intra-class mixup, and inter-class mixup. These strategies enable the model to better leverage instance-specific features, improving the learning performance over unlabeled data. To ensure consistent and reliable learning, we also introduce augmentation constraints, including instance box fitting and density-controlled instance generation. These innovations work together to enhance the model’s ability to generalize across diverse scenarios. Extensive experiments on the ScanNet and SUN RGB-D datasets show that our method consistently outperforms baseline models, achieving significant improvements in detection accuracy and generalization, particularly in low-labeled data settings."
 
 # Summary. An optional shortened abstract.
-summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
+summary: Proposed an instance-level strong augmentation strategy for semi-supervised 3D object detection to fully exploit instance-specific information for accurate object detection in 3D environments.
 
 tags:
-- Large Language Models
+- Semi-supervised Learning
+- 3D Object Detection
 
 featured: true
 
 links:
-- name: Custom Link
-  url: http://example.org
-url_pdf: http://arxiv.org/pdf/1512.04133v1
-url_code: 'https://github.com/HugoBlox/hugo-blox-builder'
+# - name: Custom Link
+#   url: http://example.org
+url_pdf: 
+url_code: 
 url_dataset: '#'
 url_poster: '#'
 url_project: ''
@@ -46,7 +47,7 @@ url_video: '#'
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 
 image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/s9CC2SKySJM)'
+  caption: ''
   focal_point: ""
   preview_only: false
 
@@ -65,11 +66,11 @@ projects:
 #   Otherwise, set `slides: ""`.
 slides: example
 ---
-
+<!-- 
 This work is driven by the results in my [previous paper](/publication/conference-paper/) on LLMs.
 
 {{% callout note %}}
 Create your slides in Markdown - click the *Slides* button to check out the example.
 {{% /callout %}}
 
-Add the publication's **full text** or **supplementary notes** here. You can use rich formatting such as including [code, math, and images](https://docs.hugoblox.com/content/writing-markdown-latex/).
+Add the publication's **full text** or **supplementary notes** here. You can use rich formatting such as including [code, math, and images](https://docs.hugoblox.com/content/writing-markdown-latex/). -->
