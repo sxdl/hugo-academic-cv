@@ -52,7 +52,7 @@ sections:
         featured_only: true
     design:
       # view: article-grid
-      view: showcase
+      view: compact 
       columns: 2
   - block: collection
     content:
