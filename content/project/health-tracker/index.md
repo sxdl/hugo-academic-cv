@@ -1,7 +1,7 @@
 ---
 title: Health Tracker
 date: 2023-12-05
-external_link: https://github.com/sxdl/health_tracker
+# external_link: https://github.com/sxdl/health_tracker
 tags:
 
 links:
