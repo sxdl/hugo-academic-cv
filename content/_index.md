@@ -51,8 +51,8 @@ sections:
           - publication
         featured_only: true
     design:
-      view: article-grid
-      # view: compact 
+      # view: article-grid
+      view: card 
       columns: '2'
   - block: collection
     content:
