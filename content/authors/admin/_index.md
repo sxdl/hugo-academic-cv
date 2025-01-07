@@ -11,7 +11,7 @@ last_name: Zeng
 
 # Status emoji
 status:
-  icon: ☕️
+  icon: 
 
 # Is this the primary user of the site?
 superuser: true
@@ -53,7 +53,7 @@ education:
   - area: B.Eng. in Artificial Intelligence
     institution: South China University of Technology
     date_start: 2022-09-01
-    date_end: 2026-06-31
+    date_end: 
     summary: |
       GPA: 3.92/4.00
       
