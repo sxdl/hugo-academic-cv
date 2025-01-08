@@ -46,8 +46,8 @@ sections:
     content: 
       title: News
       text: |-
-        - *Dec. 2024*: I attended the CSIG 2024 conference, deeply grateful for the support of Prof. Huaidong Zhang.
-        - *Jul. 2024*: I was honored to be invited to participate in the YPEC 2024 at City University of Hong Kong, where I had the opportunity to present the poster showcasing our project.
+        - **Dec. 2024**: I attended the CSIG 2024 conference, deeply grateful for the support of Prof. Huaidong Zhang.
+        - **Jul. 2024**: I was honored to be invited to participate in the YPEC 2024 at City University of Hong Kong, where I had the opportunity to present the poster showcasing our project.
       design: 
         columns: '1'
   - block: collection
