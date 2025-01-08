@@ -19,7 +19,9 @@ type: landing
 
 ## Gallery
 
-<div style="display: flex; flex-wrap: wrap; gap: 16px;">
+![screen reader text](photo1.png "caption")
+
+<!-- <div style="display: flex; flex-wrap: wrap; gap: 16px;">
 
 <div style="width: 48%;">
 <img src="photo1.png" alt="Photo 1" style="width: 100%;">
@@ -51,4 +53,4 @@ type: landing
 <p style="text-align: center;">Caption for Photo 6</p>
 </div>
 
-</div>
+</div> -->
