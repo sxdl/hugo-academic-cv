@@ -52,7 +52,7 @@ interests:
 
 education:
   - area: B.Eng. in Artificial Intelligence
-    institution: South China University of Technology
+    institution: South China University of Technology, 2026(expected)
     date_start: 2022-09-01
     date_end: 
     summary: |
