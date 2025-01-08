@@ -47,7 +47,8 @@ profiles:
     url: https://orcid.org/0009-0007-3087-0006
 
 interests:
-  - 3D Vision
+  - 3D Understanding and Perception
+  - 3D Generation
 
 education:
   - area: B.Eng. in Artificial Intelligence
