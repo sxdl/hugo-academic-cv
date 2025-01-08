@@ -1,5 +1,5 @@
 ---
-# title: Gallery
+title: Gallery
 # summary: My courses
 # type: landing
 
@@ -17,9 +17,9 @@
 ---
 
 
-## Gallery
+<!-- ## Gallery -->
 
-<!-- ![screen reader text](photo1.png "caption") -->
+![screen reader text](photo1.png "caption")
 
 <!-- <div style="display: flex; flex-wrap: wrap; gap: 16px;">
 
