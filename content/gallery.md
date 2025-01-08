@@ -21,7 +21,12 @@ title: Gallery
 
 ![screen reader text](photo1.png "caption")
 ![screen reader text](photo1.png "caption")
-![screen reader text](photo1.png "caption")
+
+
+{{< icon name="devicon/bash" >}} Terminal
+{{< icon name="devicon/python" >}} Python
+{{< icon name="devicon/r" >}} R
+
 
 <!-- <div style="display: flex; flex-wrap: wrap; gap: 16px;">
 
