@@ -1,5 +1,5 @@
 ---
-title: "ATSS3D: Adaptive Threshold for Semi-Supervised 3D Object Detection / under review"
+title: "ATSS3D: Adaptive Threshold for Semi-Supervised 3D Object Detection / under review at CVPR 2025"
 authors:
 - Chen Yu
 - admin

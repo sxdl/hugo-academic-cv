@@ -1,5 +1,5 @@
 ---
-title: "Instance-Level Strong Augmentation for Semi-Supervised 3D Object Detection / under review"
+title: "Instance-Level Strong Augmentation for Semi-Supervised 3D Object Detection / under review at CVPR 2025"
 authors:
 - admin
 - Chen Yu
