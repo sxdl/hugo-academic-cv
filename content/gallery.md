@@ -1,5 +1,5 @@
 ---
-title: Gallery
+# title: Gallery
 # summary: My courses
 # type: landing
 
