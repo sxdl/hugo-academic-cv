@@ -1,11 +1,11 @@
 ---
 title: "ATSS3D: Adaptive Threshold for Semi-Supervised 3D Object Detection / under review at CVPR 2025"
 authors:
-- Chen Yu
+- Yu Chen
 - admin
-- Chen Nuo
-- Du Yong
-- Zhang Huaidong
+- Nuo Chen
+- Yong Du
+- Huaidong Zhang
 date: "2024-11-16T00:00:00Z"
 doi: ""
 

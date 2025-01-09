@@ -2,10 +2,10 @@
 title: "Instance-Level Strong Augmentation for Semi-Supervised 3D Object Detection / under review at CVPR 2025"
 authors:
 - admin
-- Chen Yu
-- Chen Nuo
-- Du Yong
-- Zhang Huaidong
+- Yu Chen
+- Nuo Chen
+- Yong Du
+- Huaidong Zhang
 date: "2024-11-16T10:00:00Z"
 doi: ""
 
