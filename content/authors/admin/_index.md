@@ -193,7 +193,7 @@ awards:
 
 ## Biography
 
-Hello! This is Zicheng Zeng (曾子乘). I am a third-year undergraduate student at South China University of Technology majoring in Artificial Intellegence. I am now working with [Prof. Huaidong Zhang](https://scholar.google.com/citations?user=cC_WhWkAAAAJ) and Yu Chen, focusing on semi-supervised learning for 3D object detection. My research interests include 3D vision, 3D generation, and their applications in scene understanding, neural rendering, and generative models for 3D content.
+Hello! This is Zicheng Zeng (曾子乘). I am a third-year undergraduate student at South China University of Technology majoring in Artificial Intellegence. I am now working with [Prof. Huaidong Zhang](https://scholar.google.com/citations?user=cC_WhWkAAAAJ) and [Yu Chen](https://orcid.org/0009-0005-2739-7022), focusing on semi-supervised learning for 3D object detection. My research interests include 3D vision, 3D generation, and their applications in scene understanding, neural rendering, and generative models for 3D content.
 
 
 <!-- Chien Shiung Wu is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks. -->
