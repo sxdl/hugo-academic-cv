@@ -46,9 +46,11 @@ profiles:
   - icon: academicons/orcid
     url: https://orcid.org/0009-0007-3087-0006
 
-# interests:
-#   - 3D Understanding and Perception
-#   - 3D Generation
+interests:
+  - Computer vision
+  - World Model
+  - Generative Modeling
+  - Embodied AI
 
 education:
   - area: B.Eng. in Artificial Intelligence
