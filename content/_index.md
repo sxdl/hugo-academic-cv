@@ -62,7 +62,8 @@ sections:
     design:
       # view: card
       # view: article-grid
-      view: date-title-summary 
+      # view: date-title-summary 
+      view: citation 
       # columns: '2'
   # - block: collection
   #   content:
