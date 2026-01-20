@@ -1,6 +1,6 @@
 ---
 # Display name
-title: Zicheng Zeng
+title: Zicheng Zeng (曾子乘)
 
 # Name pronunciation (optional)
 name_pronunciation: 
@@ -47,10 +47,12 @@ profiles:
     url: https://orcid.org/0009-0007-3087-0006
 
 interests:
-  - Computer vision
-  - World Model
-  - Generative Modeling
-  - Embodied AI
+  # - Computer vision
+  # - World Model
+  # - Generative Modeling
+  # - Embodied AI
+  - 3D Computer vision
+  - Humanoid robot learning
 
 education:
   - area: B.Eng. in Artificial Intelligence
@@ -193,12 +195,17 @@ awards:
       Object-oriented programming (OOP) lets you specify relationships between functions and the objects that they can act on, helping you manage complexity in your code. This is an intermediate level course, providing an introduction to OOP, using the S3 and R6 systems. S3 is a great day-to-day R programming tool that simplifies some of the functions that you write. R6 is especially useful for industry-specific analyses, working with web APIs, and building GUIs.
 ---
 
-## Biography
+## Zicheng Zeng (曾子乘)
 
-Hello! This is Zicheng Zeng (曾子乘). I am a third-year undergraduate student at South China University of Technology majoring in Artificial Intellegence. I am now working with [Prof. Huaidong Zhang](https://scholar.google.com/citations?user=cC_WhWkAAAAJ) and [Yu Chen](https://orcid.org/0009-0005-2739-7022), focusing on semi-supervised learning for 3D object detection. 
+I am a fourth-year undergraduate student at South China University of Technology majoring in Artificial Intelligence. I am currently interning at Galbot and will join Prof. [Li Yi](https://ericyi.github.io/) in Fall 2026 to pursue a PhD. Previously, I worked with [Prof. Huaidong Zhang](https://scholar.google.com/citations?user=cC_WhWkAAAAJ) and [Yu Chen](https://orcid.org/0009-0005-2739-7022), previously focusing on semi-supervised learning for 3D object detection. My current research focus is perceptive locomotion.
 
 My Research Goal is to build human-like visual intelligence systems that not only perceive and reconstruct the physical world, but actively simulate its dynamics through neural scene representations and physics-grounded reasoning, enabling machines to interact with environments as adaptive cognitive agents.
-My current research interests include: 1. world model, generative models for 4D content; 2. 4D dynamic scene understanding, reconstruction; 3. embodied ai, autonomous driving etc.
+
+<!-- before 2026-01-20 -->
+<!-- Hello! This is Zicheng Zeng (曾子乘). I am a third-year undergraduate student at South China University of Technology majoring in Artificial Intellegence. I am now working with [Prof. Huaidong Zhang](https://scholar.google.com/citations?user=cC_WhWkAAAAJ) and [Yu Chen](https://orcid.org/0009-0005-2739-7022), focusing on semi-supervised learning for 3D object detection. 
+
+My Research Goal is to build human-like visual intelligence systems that not only perceive and reconstruct the physical world, but actively simulate its dynamics through neural scene representations and physics-grounded reasoning, enabling machines to interact with environments as adaptive cognitive agents.
+My current research interests include: 1. world model, generative models for 4D content; 2. 4D dynamic scene understanding, reconstruction; 3. embodied ai, autonomous driving etc. -->
 
 <!-- My research interests include 3D vision, 3D generation, and their applications in scene understanding, neural rendering, and generative models for 3D content. -->
 
