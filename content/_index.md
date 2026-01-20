@@ -60,7 +60,8 @@ sections:
           - publication
         featured_only: true
     design:
-      view: article-grid
+      view: card
+      # view: article-grid
       # view: date-title-summary 
       # columns: '2'
   # - block: collection
