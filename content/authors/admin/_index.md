@@ -197,7 +197,7 @@ awards:
 
 <!-- ## Zicheng Zeng (曾子乘) -->
 
-I am a fourth-year undergraduate student at South China University of Technology majoring in Artificial Intelligence. I am currently interning at Galbot and will join Prof. [Li Yi](https://ericyi.github.io/) in Fall 2026 to pursue a PhD. Previously, I worked with [Prof. Huaidong Zhang](https://scholar.google.com/citations?user=cC_WhWkAAAAJ) and [Yu Chen](https://orcid.org/0009-0005-2739-7022), previously focusing on semi-supervised learning for 3D object detection. My current research focus is perceptive locomotion.
+I am a fourth-year undergraduate student at South China University of Technology majoring in Artificial Intelligence. I am currently interning at Galbot and will join [Prof. Li Yi](https://ericyi.github.io/) in Fall 2026 to pursue a PhD. Previously, I worked with [Prof. Huaidong Zhang](https://scholar.google.com/citations?user=cC_WhWkAAAAJ) and [Yu Chen](https://orcid.org/0009-0005-2739-7022), previously focusing on semi-supervised learning for 3D object detection. My current research focus is perceptive locomotion.
 
 My Research Goal is to build human-like visual intelligence systems that not only perceive and reconstruct the physical world, but actively simulate its dynamics through neural scene representations and physics-grounded reasoning, enabling machines to interact with environments as adaptive cognitive agents.
 
