@@ -13,7 +13,6 @@ authors:
 - Donghoon Baek
 - Sehoon Ha
 - Tianyu Li
-- admin
 date: "2025-10-07T00:00:00Z"
 doi: ""
 
@@ -40,16 +39,16 @@ tags:
 featured: true
 
 links:
-- name: Custom Link
-  url: https://switch-justdance.github.io/
+# - name: Custom Link
+#   url: https://switch-justdance.github.io/
 url_pdf: https://arxiv.org/pdf/2511.17925
-url_code: ''
-url_dataset: '#'
-url_poster: '#'
+# url_code: ''
+# url_dataset: '#'
+# url_poster: '#'
 url_project: https://switch-justdance.github.io/
-url_slides: ''
-url_source: '#'
-url_video: '#'
+# url_slides: ''
+# url_source: '#'
+# url_video: '#'
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 
