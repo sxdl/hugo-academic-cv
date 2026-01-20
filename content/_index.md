@@ -51,29 +51,29 @@ sections:
         - **Jul. 2024**: I was honored to be invited to participate in the [YPEC 2024](https://www.ietypec.org/) at City University of Hong Kong, where I had the opportunity to present the poster showcasing our project.
       design: 
         columns: '1'
-  # - block: collection
-  #   id: publications
-  #   content:
-  #     title: Featured Publications
-  #     filters:
-  #       folders:
-  #         - publication
-  #       featured_only: true
-  #   design:
-  #     view: article-grid
-  #     # view: date-title-summary 
-  #     # columns: '2'
   - block: collection
+    id: publications
     content:
       title: Publications
-      # title: Recent Publications
-      text: ""
       filters:
         folders:
           - publication
-        exclude_featured: false
+        featured_only: true
     design:
-      view: citation
+      # view: article-grid
+      view: date-title-summary 
+      # columns: '2'
+  # - block: collection
+  #   content:
+  #     title: Publications
+  #     # title: Recent Publications
+  #     text: ""
+  #     filters:
+  #       folders:
+  #         - publication
+  #       exclude_featured: false
+  #   design:
+  #     view: citation
   # - block: collection
   #   id: projects
   #   content:
