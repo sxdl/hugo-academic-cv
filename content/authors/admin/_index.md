@@ -195,7 +195,7 @@ awards:
       Object-oriented programming (OOP) lets you specify relationships between functions and the objects that they can act on, helping you manage complexity in your code. This is an intermediate level course, providing an introduction to OOP, using the S3 and R6 systems. S3 is a great day-to-day R programming tool that simplifies some of the functions that you write. R6 is especially useful for industry-specific analyses, working with web APIs, and building GUIs.
 ---
 
-## Zicheng Zeng (曾子乘)
+<!-- ## Zicheng Zeng (曾子乘) -->
 
 I am a fourth-year undergraduate student at South China University of Technology majoring in Artificial Intelligence. I am currently interning at Galbot and will join Prof. [Li Yi](https://ericyi.github.io/) in Fall 2026 to pursue a PhD. Previously, I worked with [Prof. Huaidong Zhang](https://scholar.google.com/citations?user=cC_WhWkAAAAJ) and [Yu Chen](https://orcid.org/0009-0005-2739-7022), previously focusing on semi-supervised learning for 3D object detection. My current research focus is perceptive locomotion.
 
