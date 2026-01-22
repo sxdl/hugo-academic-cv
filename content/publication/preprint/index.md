@@ -36,7 +36,7 @@ publication_short: ""
 # tags:
 # - Large Language Models
 
-featured: true
+featured: false
 
 links:
 # - name: Custom Link
