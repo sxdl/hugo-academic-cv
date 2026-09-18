@@ -1,66 +1,54 @@
 {{/* Project override of blox-tailwind card view: horizontal publication card. */}}
 {{ $item := .item }}
 
-{{ $link := $item.RelPermalink }}
-{{ $target := "" }}
-{{ if $item.Params.external_link }}
-  {{ $link = $item.Params.external_link }}
-  {{ $target = "target=\"_blank\" rel=\"noopener\"" }}
-{{ end }}
-
 {{ $resource := partial "functions/get_featured_image.html" $item }}
 {{ $anchor := $item.Params.image.focal_point | default "Smart" }}
 {{ $author_links := $item.Params.author_links | default dict }}
 {{ $equal := $item.Params.authors_equal | default slice }}
 {{ $corresponding := $item.Params.authors_corresponding | default slice }}
 
-<div class="pub-card bg-white dark:bg-zinc-900 rounded-xl border-gray-100 dark:border-gray-700 border shadow-md overflow-hidden my-5 hover:shadow-lg transition-shadow duration-300">
-  <div class="md:flex">
+<div class="pub-card">
+  <div class="pub-card-media">
     {{ with $resource }}
-      <div class="md:flex-shrink-0 overflow-hidden bg-zinc-100 dark:bg-zinc-800 md:w-56">
-        {{ $image := .Fill (printf "448x252 %s" $anchor) }}
-        {{ if ne $image.MediaType.SubType "gif" }}{{ $image = $image.Process "webp" }}{{ end }}
-        <img class="w-full object-cover hover:scale-105 transition duration-500 cursor-pointer" loading="lazy" src="{{ $image.RelPermalink }}" height="{{ $image.Height }}" width="{{ $image.Width }}" alt="{{ $item.Title | plainify }}">
-      </div>
+      {{ $image := .Fill (printf "448x252 %s" $anchor) }}
+      {{ if ne $image.MediaType.SubType "gif" }}{{ $image = $image.Process "webp" }}{{ end }}
+      <img src="{{ $image.RelPermalink }}" height="{{ $image.Height }}" width="{{ $image.Width }}" alt="{{ $item.Title | plainify }}">
     {{ end }}
-    <div class="p-6 md:p-8 flex-1 min-w-0">
-      <div class="flex flex-wrap items-baseline gap-x-3">
-        <span class="text-lg font-bold text-gray-900 dark:text-white">{{ $item.Title }}</span>
-        {{ with $item.Params.publication_short }}
-          <span class="text-sm font-semibold text-primary-700 dark:text-primary-200">{{ . }}</span>
-        {{ end }}
-      </div>
+  </div>
+  <div class="pub-card-body">
+    <div class="pub-card-title">{{ $item.Title }}</div>
+    {{ with $item.Params.publication_short }}
+      <div class="pub-card-venue">{{ . }}</div>
+    {{ end }}
 
-      <p class="mt-2 text-sm leading-relaxed text-gray-600 dark:text-gray-300">
-        {{- range $idx, $author := $item.Params.authors -}}
-          {{ if gt $idx 0 }}, {{ end }}
-          {{ $aurl := index $author_links $author }}
-          {{ if $aurl }}<a href="{{ $aurl }}" target="_blank" rel="noopener" class="hover:underline hover:text-primary-700 dark:hover:text-primary-200">{{ $author }}</a>{{ else }}{{ $author }}{{ end }}
-          {{ if in $equal . }}<sup>*</sup>{{ end }}
-          {{ if in $corresponding . }}<sup>&dagger;</sup>{{ end }}
-        {{- end -}}
-        {{ if or $equal $corresponding }}
-          {{ if $equal }}<span class="text-gray-400"> (* equal contribution)</span>{{ end }}
-          {{ if $corresponding }}<span class="text-gray-400"> (&dagger; corresponding author)</span>{{ end }}
-        {{ end }}
-      </p>
-
-      {{ with $item.Params.summary }}
-        <p class="mt-2 text-sm leading-relaxed text-gray-500 dark:text-gray-400">{{ . }}</p>
+    <p class="pub-card-authors">
+      {{- range $idx, $author := $item.Params.authors -}}
+        {{ if gt $idx 0 }}, {{ end }}
+        {{ $aurl := index $author_links $author }}
+        {{ $isMe := eq $author "Zicheng Zeng" }}
+        {{ if $aurl }}<a href="{{ $aurl }}" target="_blank" rel="noopener" class="pub-author{{ if $isMe }} pub-author-me{{ end }}">{{ $author }}</a>{{ else }}<span class="pub-author{{ if $isMe }} pub-author-me{{ end }}">{{ $author }}</span>{{ end }}
+        {{ if in $equal . }}<sup>*</sup>{{ end }}
+        {{ if in $corresponding . }}<sup>&dagger;</sup>{{ end }}
+      {{- end -}}
+      {{ if or $equal $corresponding }}
+        {{ if $equal }}<span class="pub-author-note"> (* equal contribution)</span>{{ end }}
+        {{ if $corresponding }}<span class="pub-author-note"> (&dagger; corresponding author)</span>{{ end }}
       {{ end }}
+    </p>
 
-      <div class="mt-4 flex flex-wrap gap-2">
-        {{ $pills := slice }}
-        {{ with $item.Params.url_pdf }}{{ $pills = $pills | append (dict "label" "PDF" "url" .) }}{{ end }}
-        {{ with $item.Params.url_arxiv }}{{ $pills = $pills | append (dict "label" "arXiv" "url" .) }}{{ end }}
-        {{ with $item.Params.doi }}{{ $pills = $pills | append (dict "label" "DOI" "url" (printf "https://doi.org/%s" .)) }}{{ end }}
-        {{ with $item.Params.url_code }}{{ $pills = $pills | append (dict "label" "Code" "url" .) }}{{ end }}
-        {{ with $item.Params.url_project }}{{ $pills = $pills | append (dict "label" "Project" "url" .) }}{{ end }}
-        {{ range $pills }}
-          <a href="{{ .url }}" target="_blank" rel="noopener" class="inline-flex items-center rounded-full border border-gray-300 dark:border-gray-600 px-3.5 py-1 text-xs font-semibold text-gray-700 dark:text-gray-200 hover:border-primary-600 hover:bg-primary-600 hover:text-white dark:hover:border-primary-500 dark:hover:bg-primary-500 transition-colors duration-200">{{ .label }}</a>
-        {{ end }}
-      </div>
+    {{ with $item.Params.summary }}
+      <p class="pub-card-summary">{{ . }}</p>
+    {{ end }}
+
+    <div class="pub-card-links">
+      {{ $pills := slice }}
+      {{ with $item.Params.url_project }}{{ $pills = $pills | append (dict "label" "Project" "url" .) }}{{ end }}
+      {{ with $item.Params.url_arxiv }}{{ $pills = $pills | append (dict "label" "arXiv" "url" .) }}{{ end }}
+      {{ with $item.Params.url_code }}{{ $pills = $pills | append (dict "label" "Code" "url" .) }}{{ end }}
+      {{ with $item.Params.doi }}{{ $pills = $pills | append (dict "label" "DOI" "url" (printf "https://doi.org/%s" .)) }}{{ end }}
+      {{ range $pills }}
+        <a href="{{ .url }}" target="_blank" rel="noopener" class="pub-pill">{{ .label }}</a>
+      {{ end }}
     </div>
   </div>
 </div>
-

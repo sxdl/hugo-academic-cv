@@ -1,0 +1,36 @@
+{{/* Custom styles for horizontal publication cards (see layouts/partials/views/card.html). */}}
+<style>
+.pub-list{width:100%;max-width:56rem;margin-left:auto;margin-right:auto;margin-top:0.25rem;margin-bottom:0.25rem}
+.pub-card{display:flex;flex-direction:column;background:rgb(255 255 255/1);border:1px solid rgb(var(--color-neutral-100)/1);border-radius:0.75rem;box-shadow:0 1px 3px 0 rgb(0 0 0/0.1);overflow:hidden;margin:1.25rem 0;transition:box-shadow .3s ease}
+.pub-card:hover{box-shadow:0 10px 24px -6px rgb(0 0 0/0.18)}
+.pub-card-media{flex-shrink:0;overflow:hidden;background:rgb(var(--color-neutral-100)/1)}
+.pub-card-media img{display:block;width:100%;height:auto;transition:transform .5s ease;cursor:pointer}
+.pub-card-media:hover img{transform:scale(1.05)}
+.pub-card-body{padding:1.25rem 1.5rem;flex:1;min-width:0}
+.pub-card-title{font-size:1.125rem;font-weight:700;color:rgb(var(--color-neutral-900)/1);line-height:1.4}
+.pub-card-venue{margin-top:0.25rem;font-size:0.875rem;font-weight:600;color:rgb(var(--color-primary-700)/1)}
+.pub-card-authors{margin-top:0.6rem;font-size:0.875rem;line-height:1.7;color:rgb(var(--color-neutral-600)/1)}
+.pub-author{text-decoration:none}
+a.pub-author:hover{text-decoration:underline;color:rgb(var(--color-primary-700)/1)}
+.pub-author-me{font-weight:700;color:rgb(var(--color-primary-700)/1)}
+.pub-author-note{color:rgb(var(--color-neutral-400)/1)}
+.pub-card-summary{margin-top:0.5rem;font-size:0.875rem;line-height:1.7;color:rgb(var(--color-neutral-500)/1)}
+.pub-card-links{margin-top:0.9rem;display:flex;flex-wrap:wrap;gap:0.5rem}
+.pub-pill{display:inline-flex;align-items:center;border-radius:9999px;border:1px solid rgb(var(--color-neutral-300)/1);padding:0.25rem 0.9rem;font-size:0.75rem;font-weight:600;color:rgb(var(--color-neutral-700)/1);text-decoration:none;transition:all .2s ease}
+.pub-pill:hover{border-color:rgb(var(--color-primary-600)/1);background:rgb(var(--color-primary-600)/1);color:#fff}
+@media (min-width:768px){
+  .pub-card{flex-direction:row}
+  .pub-card-media{width:14rem}
+  .pub-card-media img{height:100%;object-fit:cover}
+  .pub-card-body{padding:1.5rem 1.75rem}
+}
+.dark .pub-card{background:rgb(var(--color-neutral-900)/1);border-color:rgb(var(--color-neutral-700)/1)}
+.dark .pub-card-title{color:#fff}
+.dark .pub-card-venue{color:rgb(var(--color-primary-200)/1)}
+.dark .pub-card-authors{color:rgb(var(--color-neutral-300)/1)}
+.dark .pub-author-me{color:rgb(var(--color-primary-200)/1)}
+.dark a.pub-author:hover{color:rgb(var(--color-primary-200)/1)}
+.dark .pub-card-summary{color:rgb(var(--color-neutral-400)/1)}
+.dark .pub-pill{border-color:rgb(var(--color-neutral-600)/1);color:rgb(var(--color-neutral-200)/1)}
+.dark .pub-pill:hover{border-color:rgb(var(--color-primary-400)/1);background:rgb(var(--color-primary-400)/1);color:rgb(var(--color-neutral-900)/1)}
+</style>
