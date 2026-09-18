@@ -1,5 +1,7 @@
 ---
 title: "Learning Athletic Humanoid Tennis Skills from Imperfect Human Motion Data"
+_build:
+  render: never
 authors:
   - Zhikai Zhang
   - Haofei Lu
@@ -30,6 +32,9 @@ author_links:
   Junliang Xing: https://pi.cs.tsinghua.edu.cn/lab/people/jlxing/en/
   He Wang: https://hughw19.github.io/
   Li Yi: https://ericyi.github.io/
+authors_equal: [Zhikai Zhang, Haofei Lu, Yunrui Lian]
+authors_corresponding: [Li Yi]
+summary: "We present LATENT, a framework that learns athletic humanoid tennis skills from imperfect human motion data, enabling the Unitree G1 robot to sustain multi-shot rallies with human players."
 date: "2026-03-13T00:00:00Z"
 doi: ""
 

@@ -1,5 +1,7 @@
 ---
 title: "Collision-Free Humanoid Traversal in Cluttered Indoor Scenes"
+_build:
+  render: never
 authors:
   - Han Xue
   - Sikai Liang
@@ -21,6 +23,9 @@ author_links:
   Qingtao Liu: https://lqts.github.io/
   Xuesong Shi: https://scholar.google.com/citations?user=wRBbtl8AAAAJ
   Li Yi: https://ericyi.github.io/
+authors_equal: [Han Xue, Sikai Liang, Zhikai Zhang]
+authors_corresponding: [Li Yi]
+summary: "We propose Humanoid Potential Field (HumanoidPF), a representation that tightly bridges environmental perception with whole-body control, enabling humanoids to hurdle, crouch, and squeeze through cluttered indoor scenes, along with a Click-and-Traverse teleoperation system for single-command traversal."
 date: "2026-08-01T00:00:00Z"
 doi: "10.1109/LRA.2026.3703590"
 
