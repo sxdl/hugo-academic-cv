@@ -47,6 +47,9 @@ sections:
     content: 
       title: News
       text: |-
+        - **Sep. 2026**: 🎉 One paper was accepted to **IROS 2026**.
+        - **Jun. 2026**: 🎉 Our paper [Collision-Free Humanoid Traversal in Cluttered Indoor Scenes](https://axian12138.github.io/CAT/) was accepted to **IEEE RA-L** (transfer to ICRA 2027).
+        - **Feb. 2026**: 🎉 Our paper [Switch-JustDance](https://switch-justdance.github.io/) was accepted to **CVPR 2026 Findings**.
         - **Dec. 2024**: I attended the [CSIG 2024](http://youth.csig.org.cn/CSIG2024/) conference, deeply grateful for the support of Prof. Huaidong Zhang.
         - **Jul. 2024**: I was honored to be invited to participate in the [YPEC 2024](https://www.ietypec.org/) at City University of Hong Kong, where I had the opportunity to present the poster showcasing our project.
       design: 
