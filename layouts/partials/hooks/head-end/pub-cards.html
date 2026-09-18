@@ -1,10 +1,12 @@
 {{/* Custom styles for horizontal publication cards (see layouts/partials/views/card.html). */}}
 <style>
 .pub-list{width:100%;max-width:56rem;margin-left:auto;margin-right:auto;margin-top:0.25rem;margin-bottom:0.25rem}
+.pub-notes{text-align:center;font-size:0.875rem;color:rgb(var(--color-neutral-400)/1);margin:0.5rem 0 0}
+.dark .pub-notes{color:rgb(var(--color-neutral-500)/1)}
 .pub-card{display:flex;flex-direction:column;background:rgb(255 255 255/1);border:1px solid rgb(var(--color-neutral-100)/1);border-radius:0.75rem;box-shadow:0 1px 3px 0 rgb(0 0 0/0.1);overflow:hidden;margin:1.25rem 0;transition:box-shadow .3s ease}
 .pub-card:hover{box-shadow:0 10px 24px -6px rgb(0 0 0/0.18)}
-.pub-card-media{flex-shrink:0;overflow:hidden;background:rgb(var(--color-neutral-100)/1)}
-.pub-card-media img{display:block;width:100%;height:auto;transition:transform .5s ease;cursor:pointer}
+.pub-card-media{flex-shrink:0;overflow:hidden;background:rgb(var(--color-neutral-100)/1);padding:0.6rem}
+.pub-card-media img{display:block;width:100%;height:auto;border-radius:0.5rem;transition:transform .5s ease;cursor:pointer}
 .pub-card-media:hover img{transform:scale(1.05)}
 .pub-card-body{padding:1.25rem 1.5rem;flex:1;min-width:0}
 .pub-card-title{font-size:1.125rem;font-weight:700;color:rgb(var(--color-neutral-900)/1);line-height:1.4}

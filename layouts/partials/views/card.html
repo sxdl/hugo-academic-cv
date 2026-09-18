@@ -30,10 +30,6 @@
         {{ if in $equal . }}<sup>*</sup>{{ end }}
         {{ if in $corresponding . }}<sup>&dagger;</sup>{{ end }}
       {{- end -}}
-      {{ if or $equal $corresponding }}
-        {{ if $equal }}<span class="pub-author-note"> (* equal contribution)</span>{{ end }}
-        {{ if $corresponding }}<span class="pub-author-note"> (&dagger; corresponding author)</span>{{ end }}
-      {{ end }}
     </p>
 
     {{ with $item.Params.summary }}
