@@ -47,11 +47,11 @@ sections:
     content: 
       title: News
       text: |-
-        - **Sep. 2026**: 🎉 One paper was accepted to **IROS 2026**.
-        - **Jun. 2026**: 🎉 One paper was accepted to **IEEE RA-L** (transfer to ICRA 2027).
-        - **Feb. 2026**: 🎉 One paper was accepted to **CVPR 2026 Findings**.
-        - **Dec. 2024**: I attended the [CSIG 2024](http://youth.csig.org.cn/CSIG2024/) conference, deeply grateful for the support of Prof. Huaidong Zhang.
-        - **Jul. 2024**: I was honored to be invited to participate in the [YPEC 2024](https://www.ietypec.org/) at City University of Hong Kong, where I had the opportunity to present the poster showcasing our project.
+        - **2026-09** One paper accepted to [IROS 2026](https://2026.ieee-iros.org/).
+        - **2026-06** One paper accepted to [IEEE RA-L](https://www.ieee-ras.org/publications/ra-l) (transfer to ICRA 2027).
+        - **2026-02** One paper accepted to [CVPR 2026](https://cvpr.thecvf.com/Conferences/2026) Findings.
+        - **2024-12** I attended the [CSIG 2024](http://youth.csig.org.cn/CSIG2024/) conference, deeply grateful for the support of Prof. Huaidong Zhang.
+        - **2024-07** I was honored to be invited to participate in the [YPEC 2024](https://www.ietypec.org/) at City University of Hong Kong, where I had the opportunity to present the poster showcasing our project.
       design: 
         columns: '1'
   - block: collection
