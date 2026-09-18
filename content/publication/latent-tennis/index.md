@@ -35,7 +35,7 @@ author_links:
 authors_equal: [Zhikai Zhang, Haofei Lu, Yunrui Lian]
 authors_corresponding: [Li Yi]
 summary: "We present LATENT, a framework that learns athletic humanoid tennis skills from imperfect human motion data, enabling the Unitree G1 robot to sustain multi-shot rallies with human players."
-date: "2026-03-13T00:00:00Z"
+date: "2026-09-01T00:00:00Z"
 doi: ""
 
 publishDate: "2017-01-01T00:00:00Z"

@@ -19,9 +19,9 @@ a.pub-author:hover{text-decoration:underline;color:rgb(var(--color-primary-700)/
 .pub-pill{display:inline-flex;align-items:center;border-radius:9999px;border:1px solid rgb(var(--color-neutral-300)/1);padding:0.25rem 0.9rem;font-size:0.75rem;font-weight:600;color:rgb(var(--color-neutral-700)/1);text-decoration:none;transition:all .2s ease}
 .pub-pill:hover{border-color:rgb(var(--color-primary-600)/1);background:rgb(var(--color-primary-600)/1);color:#fff}
 @media (min-width:768px){
-  .pub-card{flex-direction:row}
+  .pub-card{flex-direction:row;align-items:center}
   .pub-card-media{width:14rem}
-  .pub-card-media img{height:100%;object-fit:cover}
+  .pub-card-media img{height:auto;object-fit:contain}
   .pub-card-body{padding:1.5rem 1.75rem}
 }
 .dark .pub-card{background:rgb(var(--color-neutral-900)/1);border-color:rgb(var(--color-neutral-700)/1)}
