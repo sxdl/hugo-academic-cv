@@ -20,12 +20,15 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-role: Undergraduate Student of Artificial Intelligence
+role: PHD Student of Computer Science
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
-  - name: South China University of Technology
-    url: https://www.scut.edu.cn/en/
+  - name: Shanghai Qi Zhi Institute
+    url: https://www.sqz.ac.cn/en
+  - name: VDI, ShanghaiTech University
+    url: https://vdi.sist.shanghaitech.edu.cn/
+
 
 # Social network links
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
@@ -41,8 +44,8 @@ profiles:
     url: https://github.com/sxdl
   # - icon: brands/linkedin
   #   url: https://www.linkedin.com/
-  # - icon: academicons/google-scholar
-  #   url: https://scholar.google.com/
+  - icon: academicons/google-scholar
+    url: https://scholar.google.com/citations?user=MS9udxMAAAAJ
   - icon: academicons/orcid
     url: https://orcid.org/0009-0007-3087-0006
 
@@ -50,15 +53,15 @@ interests:
   # - Computer vision
   # - World Model
   # - Generative Modeling
-  # - Embodied AI
-  - 3D Computer vision
+  - Embodied AI
   - Humanoid robot learning
+  - 3D Computer vision
 
 education:
   - area: B.Eng. in Artificial Intelligence
-    institution: South China University of Technology, 2026(expected)
+    institution: South China University of Technology, 2026
     date_start: 2022-09-01
-    date_end: 
+    date_end: 2026-06-07
     summary: |
       GPA: 3.92/4.00
       
@@ -197,9 +200,14 @@ awards:
 
 <!-- ## Zicheng Zeng (曾子乘) -->
 
-I am a fourth-year undergraduate student at South China University of Technology majoring in Artificial Intelligence. I am currently interning at Galbot and will join [Prof. Li Yi](https://ericyi.github.io/) in Fall 2026 to pursue a PhD. Previously, I worked with [Prof. Huaidong Zhang](https://scholar.google.com/citations?user=cC_WhWkAAAAJ) and [Yu Chen](https://orcid.org/0009-0005-2739-7022), previously focusing on semi-supervised learning for 3D object detection. My current research focus is perceptive locomotion.
+I am a first year PHD student at [Shanghai Qi Zhi Institute](https://www.sqz.ac.cn/en) and [VDI, ShanghaiTech University](https://vdi.sist.shanghaitech.edu.cn/), advised by [Prof. Li Yi](https://ericyi.github.io/) and [Prof. Jiayuan Gu](https://jiayuan-gu.github.io/). Previously, I obtained my bachelor's degress of engineering majored in Artificial Intelligence from [South China University of Technology](https://www.scut.edu.cn/new/), advised by [Prof. Huaidong Zhang](https://scholar.google.com/citations?user=cC_WhWkAAAAJ).
 
-My Research Goal is to build human-like visual intelligence systems that not only perceive and reconstruct the physical world, but actively simulate its dynamics through neural scene representations and physics-grounded reasoning, enabling machines to interact with environments as adaptive cognitive agents.
+I am currently interning at Galbot. My research goal is to build human-like visual intelligence systems that could interact with environments as adaptive cognitive agents. My current research focus on perceptive humanoid locomotion and navigation.
+
+<!-- before 2026-09-18 -->
+<!-- I am a fourth-year undergraduate student at South China University of Technology majoring in Artificial Intelligence. I am currently interning at Galbot and will join [Prof. Li Yi](https://ericyi.github.io/) in Fall 2026 to pursue a PhD. Previously, I worked with [Prof. Huaidong Zhang](https://scholar.google.com/citations?user=cC_WhWkAAAAJ) and [Yu Chen](https://orcid.org/0009-0005-2739-7022), previously focusing on semi-supervised learning for 3D object detection. My current research focus is perceptive locomotion.
+
+My Research Goal is to build human-like visual intelligence systems that not only perceive and reconstruct the physical world, but actively simulate its dynamics through neural scene representations and physics-grounded reasoning, enabling machines to interact with environments as adaptive cognitive agents. -->
 
 <!-- before 2026-01-20 -->
 <!-- Hello! This is Zicheng Zeng (曾子乘). I am a third-year undergraduate student at South China University of Technology majoring in Artificial Intellegence. I am now working with [Prof. Huaidong Zhang](https://scholar.google.com/citations?user=cC_WhWkAAAAJ) and [Yu Chen](https://orcid.org/0009-0005-2739-7022), focusing on semi-supervised learning for 3D object detection. 
