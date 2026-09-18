@@ -16,6 +16,20 @@ authors:
   - Junliang Xing
   - He Wang
   - Li Yi
+author_links:
+  Zhikai Zhang: https://zzk273.github.io/
+  Haofei Lu: https://josh00-lu.github.io/
+  Yunrui Lian: https://liam-lyr.github.io/
+  Ziqing Chen: https://zq-chen22.github.io/
+  Yun Liu: https://leolyliu.github.io/
+  Chenghuai Lin: https://scholar.google.com/citations?user=tM-mEZcAAAAJ
+  Han Xue: https://axian12138.github.io/
+  Zicheng Zeng: https://zczeng.com/
+  Zekun Qi: https://qizekun.github.io/
+  Jingbo Wang: https://wangjingbo1219.github.io/
+  Junliang Xing: https://pi.cs.tsinghua.edu.cn/lab/people/jlxing/en/
+  He Wang: https://hughw19.github.io/
+  Li Yi: https://ericyi.github.io/
 date: "2026-03-13T00:00:00Z"
 doi: ""
 

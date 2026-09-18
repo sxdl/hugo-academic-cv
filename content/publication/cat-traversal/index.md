@@ -11,6 +11,16 @@ authors:
   - Qingtao Liu
   - Xuesong Shi
   - Li Yi
+author_links:
+  Han Xue: https://axian12138.github.io/
+  Zhikai Zhang: https://zzk273.github.io/
+  Zicheng Zeng: https://zczeng.com/
+  Yun Liu: https://leolyliu.github.io/
+  Yunrui Lian: https://liam-lyr.github.io/
+  Jilong Wang: https://42jaylonw.github.io/
+  Qingtao Liu: https://lqts.github.io/
+  Xuesong Shi: https://scholar.google.com/citations?user=wRBbtl8AAAAJ
+  Li Yi: https://ericyi.github.io/
 date: "2026-08-01T00:00:00Z"
 doi: "10.1109/LRA.2026.3703590"
 
