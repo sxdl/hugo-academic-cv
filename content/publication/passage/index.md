@@ -31,7 +31,7 @@ publication_types: ["article"]
 publication: ""
 publication_short: ""
 
-featured: true
+featured: false
 
 links:
 url_pdf: https://arxiv.org/pdf/2609.18732
